@@ -11,8 +11,42 @@
     <title>Front-end developer | Anastasiia </title>
 </head>
 <body>
-    <div class = "portfolio-body">
-        
+    
+         <nav class="navbar" style="background-color: #52b99a;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Anastasiia</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="works.html">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class = "portfolio-body">
     <h1>
         👋Hello, I'm Anastasiia, front-end developer
     </h1>
@@ -20,12 +54,19 @@
     <img src ="images/myAvatar.png" class = "img-fluid rounded-circle shadow-sm" alt="avatar" width="150px"/>
     <br/>
     <br/>
-    <span clas = "links">
-    <a href = "#" class = "works-link">My works</a>
-    <a href = "#" class = "about">about me</a>
-    <a href = "#" class = "contact">Contact me</a>
-  </span>
-  </span>
+    <div clas = "links d-flex justify-content-between">
+        <div class = "first">
+    <a href = "works.html" class = "works-link ">My works</a>
 </div>
+<div class = "second">
+    <a href = "about.html" class = "about">About me</a>   
+</div>
+<div class = "thirt">
+    <a href = "about.html#contact" class = "contact">Contact me</a>   
+</div>
+    </div>
+  </span>
+ </div>
+
 </body>
 </html>
