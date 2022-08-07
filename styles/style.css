@@ -1,10 +1,29 @@
+
 .portfolio-body{
     text-align: center;
-    margin: 70px;
+    margin: 60px;
+ 
 }
 .works-link,
-.about,
-.contact{
+.about{
+    padding: 15px 10px;
+    background:#c3b9ea;
+    border-radius: 15px;
+    color:black;
+    text-decoration: none;
+  margin-top: 40px;
+  
+}
+.links a{
+    margin: 20px;
+}
+
+.about-description{
+    padding:90px 60px;
+}
+.linkedin,
+.inst,
+.email{
     padding: 10px 10px;
     background:#c3b9ea;
     border-radius: 15px;
@@ -12,5 +31,14 @@
     text-decoration: none;
     margin: 20px;
 }
+.first,.second,.thirt{
+    display: inline-block;
+}
 
+@media(max-width:700px){
+    .first,.second,.thirt{
+       padding: 20px;
+    }
+
+}
     
